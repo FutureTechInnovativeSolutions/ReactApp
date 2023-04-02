@@ -1,21 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const App = () => {
-  const [data,setData] = useState({
-    email:'',
-    password:''
-  })
+
   return (
     <div>
-      <center>
-        <form>
-          <label>E-Mail</label><br/>
-          <input type="text" /> <br/>
-          <label>Password</label> <br/>
-          <input type="password"/> <br/> 
-          <input type="submit" value="Login"/> 
-        </form>
-      </center>
+     <center>
+      <h1>Welcome to Softwares World.</h1>
+      <br/>
+      <h3>We are under designing...Releasing Soon</h3>
+      <br/>
+      <h3>Thanks For Visiting Us</h3>
+      <br/>
+      <img src="/public/sw_logo.png" alt="Loading"/>
+     </center>
     </div>
   )
 }
